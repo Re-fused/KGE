@@ -12,11 +12,15 @@ Available datasets are:
     
     FB15k-237
     WN18RR
-    FB15k
-    WN18
+
 
 ## Reproduce the Results
-Pleaes run the commands in `RGCN+CompGCN+LTE/script` or `WGCN/script` to reproduce the results.
+To run a model execute the following command :
+- FB15k-237
+```bash python run.py ```
+- WN18RR
+```bash python run.py --th1 0.4 --th2 0.1 --conve_hid_drop 0.2 --num_filt 250 --x_ops p.b.d --r_ops p.b.d```
+
 
 
 
